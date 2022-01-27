@@ -19,14 +19,14 @@ const ArticlesPlan = () => {
 
   const fetchPrices = async () => {
     const { data: response } = await axios.get(
-      "http://localhost:8000/subs/prices"
+      "https://subblog-backend.herokuapp.com/subs/prices"
     );
     console.log(response);
     setPrices(response.data);
   };
   const createSession = async (priceId: string) => {
     const { data: response } = await axios.post(
-      "http://localhost:8000/subs/session",
+      "https://subblog-backend.herokuapp.com/subs/session",
       {
         priceId,
       }
