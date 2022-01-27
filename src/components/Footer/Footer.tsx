@@ -26,13 +26,13 @@ const Footer = () => {
               <h6>Support</h6>
               <ul className="footer-links">
                 <li>
-                  <a href="https://subblog-backend.herokuapp.com/faq/"> FAQs</a>
+                  <a href="https://sub-blog-frontend.vercel.app/faq/"> FAQs</a>
                 </li>
                 <li>
-                  <a href="https://subblog-backend.herokuapp.com/contact-us">Contact Us</a>
+                  <a href="https://sub-blog-frontend.vercel.app/contact-us">Contact Us</a>
                 </li>
                 <li>
-                  <a href="https://subblog-backend.herokuapp.com/sitemap">Sitemap</a>
+                  <a href="https://sub-blog-frontend.vercel.app/sitemap">Sitemap</a>
                 </li>
               </ul>
             </div>
