@@ -32,7 +32,7 @@ const ModalComponent = ({ text, variant, isSignupFlow }: ModalProps) => {
     let response;
     if (isSignupFlow) {
       const { data: signUpData } = await axios.post(
-        "http://localhost:8000/auth/signup",
+        "https://subblog-backend.herokuapp.com/auth/signup",
         { email, password }
       );
 
@@ -40,7 +40,7 @@ const ModalComponent = ({ text, variant, isSignupFlow }: ModalProps) => {
       console.log(signUpData);
     } else {
       const { data: loginData } = await axios.post(
-        "http://localhost:8000/auth/login",
+        "https://subblog-backend.herokuapp.com/auth/login",
         { email, password }
       );
       response = loginData;
